@@ -12,7 +12,8 @@ Simple backup script for termux
 ---
 
 ### Quick Backup
-    tar -zcf termux-backup_$(date +%s).tar.gz $HOME $PREFIX
+    sh -c 'tar -zcf "$0_$(date +%s).tar.gz" $HOME $PREFIX' termux-backup
 
 ### Quick Restore
-    tar -zxf termux-backup_23-59-59.tar.gz ~/../
+    sh -c 'tar -zxf "$0" ~/../' termux-backup_1234567890.tar.gz
+>
