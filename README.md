@@ -1,7 +1,5 @@
 # termux-backup
-Simples script de backup para o termux
-
-
+Simple backup script for termux
 
 ### Backup
     bash path/to/termux-backup.sh path/
