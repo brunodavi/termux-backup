@@ -2,7 +2,7 @@
 Simple backup script for termux
 
 ### Backup
-    bash path/to/termux-backup.sh path/
+    bash /sdcard/termux-backup.sh /sdcard/
 
 ### Restore
-    bash path/to/termux-backup.sh path/to/termux_backup_23-59-59.tar.gz
+    bash /sdcard/termux-backup.sh /sdcard/termux_backup_23-59-59.tar.gz
