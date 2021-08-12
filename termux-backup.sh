@@ -4,7 +4,7 @@ then
 	exit 1
 fi
 
-times=$(date | grep -Po '\d+:\d+:\d+'| sed s/:/-/g)
+times=$(date +%H-%M-%S)
 dir="$(realpath $1)"
 
 cd /data/data/com.termux/files/
