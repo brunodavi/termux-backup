@@ -7,7 +7,7 @@ fi
 times=$(date +%H-%M-%S)
 dir="$(realpath $1)"
 
-cd /data/data/com.termux/files/
+cd ~/..
 
 backup() {
 	tar_file="$dir/termux_backup_$times.tar.gz"
@@ -33,4 +33,4 @@ else
 	echo invalid file or directory
 fi
 
-cd - &> /dev/null
+cd - > /dev/null
