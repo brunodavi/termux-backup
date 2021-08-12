@@ -1,6 +1,8 @@
 # termux-backup
 Simple backup script for termux
 
+[Raw Script](https://raw.githubusercontent.com/brunodavi/termux-backup/master/termux-backup.sh)
+
 ### Backup
     bash /sdcard/termux-backup.sh /sdcard/
 
